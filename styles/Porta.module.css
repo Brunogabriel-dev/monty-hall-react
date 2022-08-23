@@ -1,5 +1,6 @@
 .area {
   display: flex;
+  flex-direction: column;
   width: var(--area-porta-largura);
   height: var(--area-porta-altura);
 }
@@ -8,6 +9,8 @@
   display: flex;
   flex-grow: 1;
   border-left: 5px solid brown;
+  border-top: 5px solid brown;
+  border-right: 5px solid brown;
 }
 
 .porta {
@@ -21,4 +24,10 @@
 
 .numero {
   font-size: 3rem;
+}
+
+.chao {
+  height: 10px;
+  width: 100%;
+  background-color: #ddd;
 }

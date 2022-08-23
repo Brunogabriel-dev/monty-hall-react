@@ -1,4 +1,5 @@
 .presente {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,5 +25,9 @@
 }
 
 .laco2 {
+  position: absolute;
+  top: 40px;
+  width: 90px;
+  height: 15px;
   background-color: red;
 }

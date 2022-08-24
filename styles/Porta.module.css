@@ -29,6 +29,13 @@
   font-size: 3rem;
 }
 
+.macaneta {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: brown;
+}
+
 .chao {
   height: 10px;
   width: 100%;

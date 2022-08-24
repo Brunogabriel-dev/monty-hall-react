@@ -1,4 +1,5 @@
 .area {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,6 +31,9 @@
 }
 
 .macaneta {
+  position: absolute;
+  align-self: flex-start;
+  top: calc(0.45 * var(--area-porta-altura));
   height: 20px;
   width: 20px;
   border-radius: 10px;
@@ -40,4 +44,10 @@
   height: 10px;
   width: 100%;
   background-color: #ddd;
+}
+
+.selecionada {
+  border-left: 5px solid yellow;
+  border-top: 5px solid yellow;
+  border-right: 5px solid yellow;
 }

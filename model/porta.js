@@ -10,4 +10,20 @@ export default class Porta {
     this.#selecionada = selecionada
     this.#aberta = aberta
   }
+
+  get numero() {
+    return this.#numero
+  }
+
+  get temPresente() {
+    return this.#temPresente
+  }
+
+  get selecionada() {
+    return this.#selecionada
+  }
+
+  get aberta() {
+    return this.#aberta
+  }
 }

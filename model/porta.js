@@ -26,4 +26,19 @@ export default class Porta {
   get aberta() {
     return this.#aberta
   }
+
+  desselecionar() {
+    const selecionada = false
+    return new Porta(this.numero, this.temPresente, selecionada, this.aberta)
+  }
+
+  alternarSelecao() {
+    const selecionada = !this.selecionada
+    return new Porta(this.numero, this.temPresente, selecionada, this.aberta)
+  }
+
+  abrir() {
+    const aberta = true
+    return new Porta(this.numero, this.temPresente, this.selecionada, aberta)
+  }
 }

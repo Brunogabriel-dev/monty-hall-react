@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react";
 import Porta from "../components/Porta";
 import { criarPortas } from "../functions/portas"
 import PortaModel from "../model/porta";
@@ -9,7 +9,7 @@ export default function Home() {
   const [p3, setP3] = useState(new PortaModel(3))
   
   return (
-    <div style={{display: "flex", flexDirection: "column"}}>
+    <div style={{display: "flex"}}>
       <Porta value={p1} onChange={novaPorta => setP1(novaPorta)}/>
       <Porta value={p2} onChange={novaPorta => setP2(novaPorta)}/>
       <Porta value={p3} onChange={novaPorta => setP3(novaPorta)}/>
